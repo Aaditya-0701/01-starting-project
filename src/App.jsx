@@ -4,7 +4,6 @@ import CoreConcept from './components/CoreConcept.jsx';
 import TabButton from './components/TabButton.jsx';
 
 
-
 function App() {
   return (
     <div>
@@ -32,12 +31,11 @@ function App() {
         <section id="examples">
           <h2>Examples</h2>
           <menu>
-            <TabButton onSelect={}>Components</TabButton>
+            <TabButton>Components</TabButton>
             <TabButton>JSX</TabButton>
             <TabButton>Props</TabButton>
             <TabButton>States</TabButton>
           </menu>
-
         </section>
       </main>
     </div>
